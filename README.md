@@ -6,7 +6,9 @@ Obs já usava o guard antes do método "canActivate" ser uma Future<bool>, funci
 
 Agradeço a atenção, parabéns a equipe do slidy e modular, pois eles nos ajudam a organizar melhor nossos projetos.
 
-Segue abaixo detalhes do erro é um link para o GitHub no final
+Segue abaixo detalhes do erro é um link para o GitHub no final:
+  
+**pubspec.yaml**
   
 ```
 name: modular_guard_teste
@@ -92,7 +94,7 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
 ```
 
-guard_teste.dart
+**guard_teste.dart**
 
 ```
 import 'package:flutter_modular/flutter_modular.dart';
@@ -112,7 +114,7 @@ class GuardTeste implements RouteGuard {
 }
 ```
 
-app_module.dart
+**app_module.dart**
 
 ```
 import 'package:flutter/material.dart';
