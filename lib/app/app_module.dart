@@ -20,13 +20,11 @@ class AppModule extends Module {
       "/page2",
       child: (_, args) => Page2Page(),
       guards: [GuardTeste()],
-      guardedRoute: "/home",
     ),
     ChildRoute(
       "/page3",
       child: (_, args) => Page3Page(),
       guards: [GuardTeste()],
-      guardedRoute: "/page2",
     ),
   ];
 }

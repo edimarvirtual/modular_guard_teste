@@ -11,5 +11,5 @@ class GuardTeste implements RouteGuard {
 
   @override
   // TODO: implement guardedRoute
-  String? get guardedRoute => throw UnimplementedError();
+  String? get guardedRoute => "/page2";
 }
